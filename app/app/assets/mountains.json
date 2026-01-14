@@ -1,0 +1,303 @@
+[
+  {
+    "id": "mt-kerinci",
+    "slug": "kerinci",
+    "name": "Gunung Kerinci",
+    "province": "Jambi, Sumatra",
+    "elevation": 3805,
+    "status": "open",
+    "image": "kerinci.jpg",
+    "description": "Kerinci is the highest volcano in Indonesia on Sumatra island.",
+    "checkpoints": [
+      {
+        "name": "Basecamp Kersik Tuo",
+        "type": "basecamp",
+        "coords": [101.513, -2.066],
+        "elevation": 1800
+      },
+      { "name": "Pos 1", "type": "pos", "coords": [101.517, -2.058], "elevation": 2100 },
+      { "name": "Pos 2", "type": "pos", "coords": [101.525, -2.048], "elevation": 2500 },
+      { "name": "Shelter", "type": "shelter", "coords": [101.532, -2.041], "elevation": 3000 },
+      { "name": "Summit", "type": "summit", "coords": [101.533, -2.033], "elevation": 3805 }
+    ],
+    "routes": [
+      {
+        "name": "Kersik Tuo - Summit",
+        "difficulty": "hard",
+        "coords": [
+          [101.513, -2.066],
+          [101.517, -2.058],
+          [101.525, -2.048],
+          [101.532, -2.041],
+          [101.533, -2.033]
+        ],
+        "ascent_direction": "north-east"
+      }
+    ]
+  },
+  {
+    "id": "mt-semeru",
+    "slug": "semeru",
+    "name": "Gunung Semeru",
+    "province": "East Java",
+    "elevation": 3676,
+    "status": "open",
+    "image": "semeru.jpg",
+    "description": "Semeru is the highest mountain on Java island. Famous itinerary: Ranu Kumbolo, Oro-oro Ombo, Kalimati.",
+    "checkpoints": [
+      { "name": "Ranu Kumbolo", "type": "landmark", "coords": [112.914, -8.167], "elevation": 2400 },
+      { "name": "Tanjakan Cinta", "type": "pos", "coords": [112.925, -8.173], "elevation": 2900 },
+      { "name": "Oro-oro Ombo", "type": "pos", "coords": [112.935, -8.180], "elevation": 3200 },
+      { "name": "Kalimi/Shelter", "type": "shelter", "coords": [112.944, -8.187], "elevation": 3400 },
+      { "name": "Summit (Mahameru)", "type": "summit", "coords": [112.946, -8.189], "elevation": 3676 }
+    ],
+    "routes": [
+      {
+        "name": "Trek Ranu Kumbolo - Mahameru",
+        "difficulty": "hard",
+        "coords": [
+          [112.914, -8.167],
+          [112.925, -8.173],
+          [112.935, -8.180],
+          [112.944, -8.187],
+          [112.946, -8.189]
+        ],
+        "ascent_direction": "south-east"
+      }
+    ]
+  },
+  {
+    "id": "mt-rinjani",
+    "slug": "rinjani",
+    "name": "Gunung Rinjani",
+    "province": "Lombok, West Nusa Tenggara",
+    "elevation": 3726,
+    "status": "open",
+    "image": "rinjani.jpg",
+    "description": "Rinjani known for Segara Anak crater lake and Plawangan camps.",
+    "checkpoints": [
+      { "name": "Plawangan Sembalun", "type": "basecamp", "coords": [116.465, -8.351], "elevation": 2639 },
+      { "name": "Pos 1", "type": "pos", "coords": [116.464, -8.340], "elevation": 2800 },
+      { "name": "Danau Segara Anak", "type": "lake", "coords": [116.4645, -8.344], "elevation": 2000 },
+      { "name": "Summit", "type": "summit", "coords": [116.447, -8.343], "elevation": 3726 }
+    ],
+    "routes": [
+      {
+        "name": "Sembalun - Summit",
+        "coords": [
+          [116.465, -8.351],
+          [116.464, -8.340],
+          [116.4645, -8.344],
+          [116.447, -8.343]
+        ],
+        "ascent_direction": "north-west"
+      }
+    ]
+  },
+  {
+    "id": "mt-merbabu",
+    "slug": "merbabu",
+    "name": "Gunung Merbabu",
+    "province": "Central Java",
+    "elevation": 3145,
+    "status": "open",
+    "image": "merbabu.jpg",
+    "description": "Merbabu offers routes via Selo and Thekelan with multiple peaks.",
+    "checkpoints": [
+      { "name": "Selo (Basecamp)", "type": "basecamp", "coords": [110.431, -7.450], "elevation": 1200 },
+      { "name": "Pos 1", "type": "pos", "coords": [110.440, -7.430], "elevation": 1800 },
+      { "name": "Peak", "type": "summit", "coords": [110.455, -7.414], "elevation": 3145 }
+    ],
+    "routes": [
+      {
+        "name": "Via Selo - Summit",
+        "coords": [
+          [110.431, -7.450],
+          [110.440, -7.430],
+          [110.455, -7.414]
+        ],
+        "ascent_direction": "north"
+      }
+    ]
+  },
+  {
+    "id": "mt-merapi",
+    "slug": "merapi",
+    "name": "Gunung Merapi",
+    "province": "Central Java / Yogyakarta",
+    "elevation": 2911,
+    "status": "restricted",
+    "image": "merapi.jpg",
+    "description": "Active volcano with periodic restrictions; check status before climbing.",
+    "checkpoints": [
+      { "name": "Babadan (Basecamp)", "type": "basecamp", "coords": [110.436, -7.520], "elevation": 1500 },
+      { "name": "Pos 1", "type": "pos", "coords": [110.440, -7.505], "elevation": 2000 },
+      { "name": "Summit", "type": "summit", "coords": [110.446, -7.540], "elevation": 2911 }
+    ],
+    "routes": [
+      {
+        "name": "Selo/Babadan - Summit",
+        "coords": [
+          [110.436, -7.520],
+          [110.440, -7.505],
+          [110.446, -7.540]
+        ],
+        "ascent_direction": "north-east"
+      }
+    ]
+  },
+  {
+    "id": "mt-bromo",
+    "slug": "bromo",
+    "name": "Gunung Bromo",
+    "province": "East Java",
+    "elevation": 2329,
+    "status": "open",
+    "image": "bromo.jpg",
+    "description": "One of Java's most iconic volcanoes; widely visited.",
+    "checkpoints": [
+      { "name": "Penanjakan (view)", "type": "view", "coords": [112.942, -7.942], "elevation": 2770 },
+      { "name": "Sea of Sand", "type": "landmark", "coords": [112.950, -7.945], "elevation": 2000 },
+      { "name": "Bromo Crater", "type": "summit", "coords": [112.953, -7.942], "elevation": 2329 }
+    ],
+    "routes": [
+      {
+        "name": "Ford & walk to crater",
+        "coords": [
+          [112.942, -7.942],
+          [112.950, -7.945],
+          [112.953, -7.942]
+        ],
+        "ascent_direction": "east"
+      }
+    ]
+  },
+  {
+    "id": "mt-agung",
+    "slug": "agung",
+    "name": "Gunung Agung",
+    "province": "Bali",
+    "elevation": 3142,
+    "status": "open",
+    "image": "agung.jpg",
+    "description": "Bali's sacred mountain with challenging climbs.",
+    "checkpoints": [
+      { "name": "Pura Pasar Agung (base)", "type": "basecamp", "coords": [115.509, -8.343], "elevation": 1000 },
+      { "name": "Pos 2", "type": "pos", "coords": [115.520, -8.330], "elevation": 2300 },
+      { "name": "Summit", "type": "summit", "coords": [115.508, -8.342], "elevation": 3142 }
+    ],
+    "routes": [
+      {
+        "name": "Via Pura Pasar - Summit",
+        "coords": [
+          [115.509, -8.343],
+          [115.520, -8.330],
+          [115.508, -8.342]
+        ],
+        "ascent_direction": "north"
+      }
+    ]
+  },
+  {
+    "id": "mt-rinjani-sek",
+    "slug": "latimojong",
+    "name": "Gunung Latimojong",
+    "province": "South Sulawesi",
+    "elevation": 3478,
+    "status": "open",
+    "image": "latimojong.jpg",
+    "description": "Highest mountain in South Sulawesi.",
+    "checkpoints": [
+      { "name": "Basecamp", "type": "basecamp", "coords": [119.045, -3.540], "elevation": 1200 },
+      { "name": "Pos 1", "type": "pos", "coords": [119.050, -3.530], "elevation": 2000 },
+      { "name": "Summit", "type": "summit", "coords": [119.060, -3.520], "elevation": 3478 }
+    ],
+    "routes": [
+      {
+        "name": "Standard route",
+        "coords": [
+          [119.045, -3.540],
+          [119.050, -3.530],
+          [119.060, -3.520]
+        ],
+        "ascent_direction": "north"
+      }
+    ]
+  },
+  {
+    "id": "mt-gamalama",
+    "slug": "gamalama",
+    "name": "Gunung Gamalama",
+    "province": "North Maluku",
+    "elevation": 1715,
+    "status": "open",
+    "image": "gamalama.jpg",
+    "description": "Prominent volcano on Ternate island.",
+    "checkpoints": [
+      { "name": "Basecamp", "type": "basecamp", "coords": [127.356, 0.786], "elevation": 200 },
+      { "name": "Pos", "type": "pos", "coords": [127.360, 0.800], "elevation": 900 },
+      { "name": "Summit", "type": "summit", "coords": [127.356, 0.820], "elevation": 1715 }
+    ],
+    "routes": [
+      {
+        "name": "Standard ascent",
+        "coords": [
+          [127.356, 0.786],
+          [127.360, 0.800],
+          [127.356, 0.820]
+        ],
+        "ascent_direction": "north"
+      }
+    ]
+  },
+  {
+    "id": "mt-jaya",
+    "slug": "puncak-jaya",
+    "name": "Puncak Jaya (Carstensz Pyramid)",
+    "province": "Papua",
+    "elevation": 4884,
+    "status": "restricted",
+    "image": "puncakjaya.jpg",
+    "description": "Highest island peak in the world; remote and often restricted.",
+    "checkpoints": [
+      { "name": "Basecamp", "type": "basecamp", "coords": [137.188, -4.083], "elevation": 4200 },
+      { "name": "Summit", "type": "summit", "coords": [137.178, -4.082], "elevation": 4884 }
+    ],
+    "routes": [
+      {
+        "name": "Carstensz route",
+        "coords": [
+          [137.188, -4.083],
+          [137.178, -4.082]
+        ],
+        "ascent_direction": "west"
+      }
+    ]
+  },
+  {
+    "id": "mt-kerinci-dup",
+    "slug": "sumbing",
+    "name": "Gunung Sumbing",
+    "province": "Central Java",
+    "elevation": 3371,
+    "status": "open",
+    "image": "sumbing.jpg",
+    "description": "Sumbing sits near Sindoro and is popular for trekking.",
+    "checkpoints": [
+      { "name": "Basecamp", "type": "basecamp", "coords": [109.870, -7.326], "elevation": 1000 },
+      { "name": "Pos 1", "type": "pos", "coords": [109.880, -7.318], "elevation": 1800 },
+      { "name": "Summit", "type": "summit", "coords": [109.895, -7.304], "elevation": 3371 }
+    ],
+    "routes": [
+      {
+        "name": "Summit Route",
+        "coords": [
+          [109.870, -7.326],
+          [109.880, -7.318],
+          [109.895, -7.304]
+        ],
+        "ascent_direction": "north"
+      }
+    ]
+  }
+]
